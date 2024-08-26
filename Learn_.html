@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghav Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+
+            .mochiy-pop-one-regular {
+                font-family: "Mochiy Pop One", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+
+        }
+
+        .Discription {
+            font-size: 1.5rem;
+            font-style: italic;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(41, 41, 118);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(33, 33, 237);
+            font-size: 1.3rem;
+
+        }
+
+        .left {
+
+            font-size: 3rem;
+        }
+        .leftsection button{
+            padding: 23px;
+        }
+        .leftsection .But {
+
+            padding: 4px;
+            border: 2px solid white;
+            background: #7f90cd;
+            border-radius: 6px;
+            cursor: pointer;
+
+        }
+
+        .FirstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            margin: 10px 0;
+            width: 40%;
+        }
+
+        .rightsection {
+            display: flex;
+            align-items: center;
+            width: 25%;
+            background-color: white;
+            padding: 2%;
+        }
+
+        .rightsection img {
+
+            width: 100%;
+
+
+
+        }
+
+        .Purple {
+            color: rgb(233, 100, 85);
+        }
+
+        #element {
+            color: aquamarine;
+        }
+
+        .SecondSection {
+
+            margin: auto;
+            height: 60vh;
+
+
+        }
+
+        .SecondSection h1 {
+            margin: 10px;
+        }
+
+        .SecondSection .box {
+
+
+            width: 80vh;
+            height: 2px;
+
+
+        }
+
+        .SecondSection .vertical {
+
+
+            height: 93px;
+
+            display: flex;
+
+        }
+
+
+        .img-top {
+            margin: 10px;
+        }
+
+        .SecondSection .vertical-Title {
+
+            margin-top: 10px;
+        }
+
+        .SecondSection .vertical-Text {
+            margin: 10px 10px;
+            overflow-wrap: break-word;
+            /* Ensures consistent behavior across browsers */
+            white-space: normal;
+            /* Prevents text from staying on a single line */
+            width: 85%;
+
+        }
+
+        .SecondSection .Radisson {
+            height: 93px;
+            width: 88vh;
+            display: flex;
+            position: relative;
+            left: 650px;
+        }
+
+        .thirdsection {
+            height: 65vh;
+            margin: auto;
+
+        }
+
+        .thirdsection .hr {
+            border: 0px;
+            background: rgb(237 228 238);
+            height: 1.5px;
+            margin: 20px 0px;
+        }
+
+        .thirdsection h2 {
+            margin: 10px 10px;
+        }
+
+        .thirdsection .box {
+            height: 2px;
+            width: 200vh;
+            display: flex;
+            background: white;
+            margin-top: 85px;
+            margin-left: 30px;
+        }
+
+        .thirdsection .vertical {
+            height: 93px;
+            background-color: white;
+            margin-right: 1.5vh;
+
+
+        }
+
+        .img-edu {
+
+            width: 60px;
+            height: 60px;
+            position: relative;
+            top: -68px;
+        }
+
+        .thirdsection .vertical-Title {
+
+            margin-top: 20px;
+            position: relative;
+            left: -50px;
+        }
+
+        .thirdsection .vertical-Text {
+            position: relative;
+            top: 15px;
+            font-size: 15px;
+            font-style: normal
+        }
+
+        .thirdsection .box div {
+            width: 40vh;
+
+        }
+
+        footer {
+            background-color: rgb(247, 251, 251);
+            height: 233px;
+        }
+
+        .footer {
+            padding-top: 23px;
+            padding-left: 50px;
+            display: flex;
+            color: black;
+            justify-content: space-between;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        footer>div {
+            width: 150vh;
+        }
+
+
+
+        main hr {
+            border: 0px;
+            background: rgb(237 228 238);
+            height: 1.5px;
+            margin: 20px 0px;
+        }
+    </style>
+    <!-- How to Link CSS externaly -->
+    <link rel="stylesheet" href="learn_.css">
+</head>
+
+<nav>
+    <div class="left">Raghav's Prortfolio </div>
+    <div class="right">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Work Expirence</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contect Me</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+<body>
+    <main>
+        <section class="FirstSection">
+
+            <div class="leftsection">Hi my name is <span class="Purple">Raghav</span>
+                <div>I am a passionate</div>
+                <span id="element"></span>
+                <br>
+                <button class="But">Download Resume</button>
+
+                <button class="But">Visit Github</button>
+                <br><br>
+                <p class="Discription">As a QA Engineer at Ensuredit, I focus on building reliable testing frameworks
+                    and automating test cases to improve software quality. While I have experience in SDET tasks and
+                    enjoy problem-solving, I'm still early in my career and eager to learn more. I love working with my
+                    team to tackle challenges and continuously improve our processes. I'm committed to growing my skills
+                    and contributing to the success of the projects I work on.</p>
+
+            </div>
+
+
+
+
+            <div class="rightsection"><img src="RaghavDP.png" alt="style"></div>
+
+        </section>
+        <section class="SecondSection">
+            <hr>
+            <h1>Work Expirence</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="img-top" src="QA.png" alt="">
+                    <div class="vertical-Title">Working as a QA Engineer since (2022 - present)
+                        <div class="vertical-Text">
+                            I started my IT career at Ensuredit as a QA Engineer, where I focus on ensuring high-quality
+                            software through meticulous testing practices. I specialize in using Cypress for automation
+                            and end-to-end (E2E) testing, streamlining testing processes and enhancing product
+                            reliability. I've also gained experience as an SDET, integrating automated tests within the
+                            CI/CD pipeline. Collaborating with development teams, I help identify issues early and
+                            implement effective solutions, while continuously improving my skills.
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="Radisson">
+                <img class="img-top" src="Radisson.png" alt="">
+                <div class="vertical-Title">Store Supervisor (2021 - 2022)
+                    <div class="vertical-Text">
+                        Managed day-to-day operations of the store, ensuring smooth and efficient workflow.
+                        Supervised inventory control, ensuring accurate stock levels and timely replenishment of goods.
+                        Coordinated with vendors and suppliers for procurement of materials, maintaining strong
+                        relationships for consistent supply.
+                        Oversaw staff scheduling, training, and performance, fostering a positive work environment and
+                        ensuring high standards of customer service.
+                        Implemented cost-control measures, reducing waste and optimizing resource utilization.
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="thirdsection">
+            <hr>
+            <h2>Education</h2>
+            <div class="box">
+                <div class="vertical"></div>
+                <img class="img-edu" src="CU1.png" alt="">
+                <div class="vertical-Title">Master of Computer Applications (MCA) | Chandigarh University | 2024 -
+                    Present
+                    <div class="vertical-Text">
+                        Currently pursuing MCA through online learning, enhancing my skills in advanced computer science
+                        and software development.
+                        Engaging in coursework that covers a wide range of topics, including software engineering, data
+                        structures, algorithms, and more.
+                        Committed to continuous learning and applying new knowledge to real-world IT challenges.
+                    </div>
+                </div>
+                <div class="vertical"></div>
+                <img class="img-edu" src="Sri_Dev_Suman_Uttarakhand_University_Logo.png" alt="">
+                <div class="vertical-Title">Bachelor of Computer Applications (BCA) | SDSU University, Vidya Vikasini
+                    Degree College(2021 - 2024)
+                    <div class="vertical-Text">
+                        Completed BCA with a CGPA of 6.07
+                        Acquired foundational knowledge in computer science, software development, and IT applications
+                        over 6 semesters.
+                    </div>
+                </div>
+                <div class="vertical"></div>
+                <img class="img-edu" src="10thUP Small.png" alt="">
+                <div class="vertical-Title">Intermediate Education (2019 - 2020) Percentage - 63%/ 1st Div
+                    <div class="vertical-Text">
+                        I completed my Intermediate examination from Guru Nanak Inter College, Saharanpur, UP Board with
+                        a focus on Physics, Chemistry, and Maths. I scored 316 out of 500.
+                    </div>
+                </div>
+                <div class="vertical"></div>
+                <img class="img-edu" src="10thUP Small.png" alt="">
+                <div class="vertical-Title">High School Education (2017 - 2018) Precentage - 66% / 1st Div
+                    <div class="vertical-Text">
+                        I completed my High School Examination from S.A.M Inter College, Saharanpur, UP Board.
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <Footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Raghav Devloper Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Work Exprience</li>
+                    <li>Education</li>
+                    <li>Contect Me</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>Work Exprience</li>
+                    <li>Education</li>
+                    <li>Contect Me</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>Work Exprience</li>
+                    <li>Education</li>
+                    <li>Contect Me</li>
+                </ul>
+            </div>
+        </div>
+    </Footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['QA Engineer', 'Software Devloper In Testing'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
